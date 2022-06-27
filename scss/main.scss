@@ -278,15 +278,8 @@
   
   @media only screen and (min-width: 1200px) {
 
-    .header-top {
-      .logo {
-        margin-top: .3em;
-        opacity: .7;
-        transition: .1s;
-        &:hover {
-          opacity: 1;
-        }
-      }
+    .header {
+
       position: fixed;
       left: 0;
       right: 0;
@@ -298,6 +291,15 @@
       padding: .2em;
       justify-content: space-around;
       z-index: 999;
+
+      .logo {
+        margin-top: .3em;
+        opacity: .7;
+        transition: .1s;
+        &:hover {
+          opacity: 1;
+        }
+      }
       
       a{
         color: rgb(153, 153, 153);
@@ -307,6 +309,14 @@
           text-decoration: none;
           color: black;
         }
+      }
+
+      .header__ul {
+          
+        &--active {
+           color: black;
+        }
+
       }
     }
     body {

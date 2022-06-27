@@ -354,7 +354,7 @@ footer {
     border-width: 1px; } }
 
 @media only screen and (min-width: 1200px) {
-  .header-top {
+  .header {
     position: fixed;
     left: 0;
     right: 0;
@@ -366,18 +366,20 @@ footer {
     padding: .2em;
     justify-content: space-around;
     z-index: 999; }
-    .header-top .logo {
+    .header .logo {
       margin-top: .3em;
       opacity: .7;
       transition: .1s; }
-      .header-top .logo:hover {
+      .header .logo:hover {
         opacity: 1; }
-    .header-top a {
+    .header a {
       color: #999999;
       transition: .2s; }
-      .header-top a:hover {
+      .header a:hover {
         text-decoration: none;
         color: black; }
+    .header .header__ul--active {
+      color: black; }
   body {
     margin: 0; }
   .container-inicio {
