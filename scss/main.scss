@@ -2,11 +2,11 @@
   // em = 16px use for margin & padding
   // relative = rem / em       absolute = px
   
-  @import './_catalogo.scss'; 
-  @import './_nosotros.scss'; 
-  @import './_faq.scss'; 
-  @import './_contacto.scss'; 
-  @import './_catalogo.scss'; 
+  @import './catalogo'; 
+  @import './nosotros'; 
+  @import './faq'; 
+  @import './contacto'; 
+  @import './catalogo'; 
 
 
   // MOBILE FIRST
