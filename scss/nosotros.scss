@@ -1,0 +1,82 @@
+  //NOSOTROS - MOBILE FIRST
+  
+  section.hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/nosotros.avif');
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 20%;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    // overflow: hidden;
+    animation: introLoad 2s forwards;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-top: 2em;
+    line-height: 3.3rem;
+  }
+  
+  .subhead {
+    font-size: 1.4rem;
+  }
+  
+  section.hero {
+    color: white;
+    height: 35vh;
+    margin-top: 17em;
+    animation: moveDown 1s ease-in-out forwards;
+    opacity: 0;
+  
+      .down-arrow {
+        stroke: white;
+        position: absolute;
+        width: 1em;
+        margin-top: 2em;
+        animation: moveArrow 1s alternate-reverse infinite;
+  
+        path {
+          fill: white;
+        }
+      }
+  }
+  
+  // TABLET
+  @media only screen and (min-width: 920px) {
+  
+    section.hero-img {
+      right: 0;
+      width: 50%;
+      height: 42em;
+    }
+    .logo {
+      color: black;
+  
+      span {
+        color: red;
+      }
+    }
+  
+    section.hero2 {
+      color: black;
+      height: auto;
+      width: 45%;
+      margin-top: 10em;
+      position: absolute;
+      right: 0;
+  
+      svg.down-arrow {
+        stroke: black;
+        position: unset;
+  
+        path {
+          fill: black;
+        }
+      }
+    }
+
+  }
