@@ -1,0 +1,8 @@
+1- Agregué en todos los HTMLs meta description y meta keywords
+2- Apliqué extend header__ul &--active para que quede en negrita en el nav var así indica donde estamos en la web.
+3- Agregué _ (guion bajo) en el nombre del archivo scss para simplificar en el código la escritura e indicar a la web que es más importante el main.scss
+4- Para jerarquizar aun más, ordené los archivos secundarios de sass en una carpeta "pages"
+5- Para jerarquizar scss y las variables, armé dos carpetas adentro de la carpeta scss, esto indica al navegador que main.scss es el primero que tiene que analizar
+6- Apliqué variable $colorBotones (color negro) a todos los botones
+7- Apliqué variable $typoBody (poppins, san serif) al body
+8- Ordené las variables en carpeta /variables
